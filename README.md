@@ -27,3 +27,6 @@ Go to my.telegram.org and create one app and get API_ID and API_HASH
   USD_UZS=12500                (optional: so'm per 1 dollar)
 
 Install:  uv add telethon python-dotenv
+
+Example "CHANNELS=" you might need in searching apartments from tashkent
+CHANNELS=@Studentlarga_kvartira_bezmakler,@maklersiz_ijaragai @chilonzorda_ijaraga_kvartira
