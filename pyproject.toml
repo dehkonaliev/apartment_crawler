@@ -1,0 +1,20 @@
+[project]
+name = "pyogram"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Maqsudbek", email = "dehkanaliev@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "python-dotenv>=1.2.4",
+    "telethon>=1.45.0",
+]
+
+[project.scripts]
+pyogram = "pyogram:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
